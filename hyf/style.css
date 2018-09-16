@@ -1,0 +1,29 @@
+body{
+    border-style: solid;
+    
+}
+   
+.intro{
+        font-family: monospace;
+        
+        margin: 50px;
+        
+    }
+img{ 
+     position: absolute;
+    border: 1px solid  black ;
+    top: 100px;
+    right: 150px;}    
+.heading{
+       font-size: 1cm;
+       padding-top: 20px;
+}
+.data{
+    margin-left: 50px;
+    margin-right: 100px;
+    font-style: inherit;
+}
+   h2{
+    color:blueviolet;
+    }
+
