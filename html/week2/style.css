@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+}
+.heading{
+    font-size: 1cm;
+    padding-top: 20px:
+}
+img{
+    float: right;
+}
+
+@media(max-width:320px) {
+    body{
+        background-color: beige;}
+     .heading{box-align: center;}
+     .photo{
+         display:flex;
+         flex-direction:column;
+     }
+     .intro{
+         display: grid;
+         grid-area: 100%;
+         background-color:#eee;
+     }
+     .container{
+         display: grid;
+         grid-template-columns: 50% 50%;
+         grid-gap: 1em;
+         background-color: aqua;
+         
+     }
+     .container > div{
+         background-color: azure;
+         padding: 1em 1em;
+
+     }
+
+}
+@media(max-width:680px) {
+    
+} 
+
+
+
+
+
+
+
+
+
+
