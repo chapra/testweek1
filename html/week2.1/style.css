@@ -6,8 +6,14 @@ h1{
     color: blue;
 }
 
+img{
+    list-style-position: outside;
+    list-style-image: :none;
+    list-style-type: none;
+}
 
-.grid-item{
+
+#grid-floats .grid-item{
     
     float: left;
     background-color:yellowgreen;
@@ -17,4 +23,9 @@ h1{
     display: inline;
     text-align: center;
     list-style-image: none;
+}
+#grid-flex .grid-item{
+    display: inline-flex;
+    background-color: aquamarine;
+
 }

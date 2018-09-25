@@ -1,0 +1,7 @@
+body{
+    background-color: bisque;
+}
+title{
+    display:inline-flex;
+    padding:1%;
+}
